@@ -1,0 +1,59 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato&display=swap');
+body {
+    font-family: 'Lato', sans-serif;
+    text-align: center;
+    margin: auto;
+}
+
+:root {
+    --primary-color: orange;
+    --light-orange: #fb923c;
+    --off-white: #fed7aa;
+}
+
+h1 {
+    color: var(--primary-color);
+}
+
+.nav {
+    background-color: coral;
+    color: aliceblue;
+    padding: 1rem 1rem;
+    border-radius: 1rem;
+}
+
+.line {
+    text-decoration: none;
+    color: white;
+    padding: 1rem;
+}
+
+.container {
+    width: 50%;
+    margin: auto;
+}
+
+.question-container {
+    text-align: left;
+    padding-left: 2rem;
+}
+
+label {
+    padding: 1rem;
+    max-width: 100%;
+}
+
+.btn {
+    display: block;
+    margin-top: 1rem;
+    margin: auto;
+    padding: 0.5rem;
+    border-radius: 0.5rem;
+    border-color: coral;
+    color: coral;
+}
+
+#output {
+    padding: 1rem 1rem;
+    color: black;
+}

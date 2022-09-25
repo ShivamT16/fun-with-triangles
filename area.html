@@ -6,17 +6,32 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Area of Triangle</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 
 <body>
-    <h1>Calculate Area of Triangle</h1>
-    <label>B(cm) =</label>
-    <input type="number" class="bh-input" />
-    <label>H(cm) =</label>
-    <input type="number" class="bh-input" />
-    <button id="area-btn">Calculate Area</button>
-    <div id="output"></div>
+    <h1>Fun with Triangle</h1>
+    <nav class="nav">
+        <a class="line" href="/index.html">Is Triangle?</a>
 
+        <a class="line" href="/quiz.html">Quiz</a>
+
+        <a class="line" href="/hypotenuse.html">Hypotenuse</a>
+
+        <a class="line" href="/area.html"><strong>Area</strong></a>
+    </nav>
+
+
+    <h1>Calculate Area of Triangle</h1>
+    <div>
+        <label>Base(cm) =</label>
+        <input type="number" class="bh-input" />
+        <label>Height(cm) =</label>
+        <input type="number" class="bh-input" />
+        <h2></h2>
+        <button class="btn" id="area-btn">Calculate Area</button>
+        <div id="output"></div>
+    </div>
     <script src="area.js"></script>
 
 </body>
